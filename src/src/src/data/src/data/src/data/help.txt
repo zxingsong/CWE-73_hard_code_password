@@ -1,0 +1,2 @@
+Allowed files: public.txt, help.txt
+The fixed demo uses an allowlist + path checks.
