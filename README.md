@@ -1,3 +1,6 @@
+The file src/hardcoded_password_demo.py demonstrates why hardcoding secrets is unsafe.
+A better approach is environment variables or a secrets manager (AWS Secrets Manager, HashiCorp Vault, etc.).
+
 # CWE-73 (External Control of File Name or Path) — Python Demo
 This repository contains a **small, runnable Python demo** showing:
 
