@@ -54,3 +54,16 @@ Impacts can include:
 From the repo root:
 ```bash
 python src/vulnerable_cwe73.py
+
+## CAASM and Enterprise Security Context
+
+In CAASM and large-scale security platforms, CWE-73–style risks frequently appear in
+automated asset ingestion pipelines, scan artifact processing, and evidence collection
+workflows where filenames or paths may originate from external systems or user-controlled
+metadata. Without strict validation and normalization, path traversal flaws can allow
+unauthorized access to sensitive configuration, credentials, or security evidence.
+
+This demo illustrates both the vulnerable pattern and a hardened approach using
+allowlists and path resolution checks—controls that are commonly required in
+federal, regulated, and multi-tenant CAASM environments.
+
